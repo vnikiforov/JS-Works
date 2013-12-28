@@ -1,10 +1,4 @@
 
-
-// Main data types
-
-// Collection of group transformation
-var TransformCollection; 
-
 class SkippedElement
 {
 	var Name; // Human orientated string element description.
@@ -22,12 +16,12 @@ class CompressedSVG
 
 
 // Main function
+// rootGroupTree - <g> - node for compress.
 function svg_compress(rootGroupTree)
 {
 	var resultTree = new CompressedSVG();
 
-	// 
-
+	// Process...
 
 	return resultTree;
 }
